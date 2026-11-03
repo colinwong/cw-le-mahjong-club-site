@@ -3,38 +3,55 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Le Mahjong Club — Privacy Policy</title>
+<title>Le Mahjong — Privacy Policy</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <main>
   <nav><a href="./">Support</a><a href="privacy.html">Privacy</a></nav>
   <h1>Privacy Policy</h1>
-  <p class="sub">Le Mahjong Club for iPhone · Effective 27 October 2026</p>
+  <p class="sub">Le Mahjong for iPhone · Effective 2 November 2026</p>
 
   <div class="card">
-    <p>Le Mahjong Club does not collect, store, or share any personal information. There are no accounts, no analytics, no advertising, and no third-party services.</p>
+    <p>Le Mahjong works without an account. Local sessions and practice progress stay on your device. If you choose Shared play, the app sends player and session information to our service so the people at your table can follow the same game.</p>
   </div>
 
-  <h2>What the app stores</h2>
-  <p>The app remembers a few settings on your device only, such as the current table wind and seat positions, so they are still there when you reopen it. This information never leaves your phone and is deleted when you delete the app.</p>
+  <h2>Information stored on your device</h2>
+  <p>The app stores settings, Local session names and results, practice progress and best scores on your iPhone. Rules, artwork and pronunciation audio are bundled with the app. These offline features do not upload their records to our shared-session service.</p>
+  <p>For Shared play, the app also keeps a cached copy of your joined sessions and a randomly generated credential in the iOS Keychain. This lets the service recognize the same app installation without an account or password.</p>
 
-  <h2>Network access</h2>
-  <p>The app does not connect to the internet. All rules, tables and artwork are built into the app.</p>
+  <h2>Information used for Shared sessions</h2>
+  <p>When you create or join a Shared session, the service stores:</p>
+  <ul>
+    <li>The player names entered at the table, including names the host enters for players without the app.</li>
+    <li>App-generated player, session and device-credential identifiers. The server stores a hash of the device credential, not the original secret.</li>
+    <li>Seat positions, host and dealer assignments, selected rules, recorded hands, scores, balances and session timestamps.</li>
+    <li>Player replacement requests and their approval status.</li>
+  </ul>
+  <p>These records are used to operate Shared play, authorize table actions, synchronize results and allow existing participants to reopen their session history. Names, identifiers and game records are associated within the shared-session service. You may use a nickname.</p>
 
-  <h2>TestFlight</h2>
-  <p>If you install the app through Apple's TestFlight, Apple may collect crash logs and the feedback you choose to send, under <a href="https://www.apple.com/legal/privacy/">Apple's privacy policy</a>. The app itself adds nothing to this.</p>
+  <h2>Who can see shared information</h2>
+  <p>The host and joined players can see the table's names, seats and game records. Someone with the four-letter code can see the seating information needed to join or request a replacement. The code does not give an unseated person access to an active table's hand history. After a host approves a replacement, the previous player's phone loses access to that seat.</p>
+  <p>Shared sessions are hosted on Railway, which processes the information needed to run the service. Internet connections also use technical information such as an IP address to deliver requests. We do not use shared-session data for advertising, cross-app tracking or sale to data brokers.</p>
 
-  <h2>Children</h2>
-  <p>The app does not knowingly collect information from anyone, including children.</p>
+  <h2>Retention and deletion</h2>
+  <p>Ending a session, including automatic closure after inactivity, preserves its records. Shared-session records currently remain on the service after the game ends; an expired invitation code is not a deletion of the ledger. Deleting the app does not delete server copies of Shared sessions.</p>
+  <p>To request deletion of a Shared session or information associated with it, contact <a href="mailto:colinwong@gmail.com">colinwong@gmail.com</a> with the session code and approximate date. We may need enough information to verify that the request relates to your table. Do not send passwords or device credentials.</p>
+
+  <h2>Advertising and analytics</h2>
+  <p>The app has no advertisements, advertising identifiers or third-party analytics SDKs. We do not track your activity across other companies' apps or websites.</p>
+
+  <h2>Support and TestFlight</h2>
+  <p>If you email support, we receive the message and contact information you choose to provide and use them to respond. Avoid including sensitive information in screenshots or recordings.</p>
+  <p>If you use Apple's TestFlight, Apple may collect installation information, diagnostics and feedback under <a href="https://www.apple.com/legal/privacy/">Apple's privacy policy</a>. Feedback and diagnostic information that Apple makes available to the developer may be used to investigate problems and improve the app.</p>
 
   <h2>Changes</h2>
-  <p>If this policy changes, the new version will be published at this address with a new effective date.</p>
+  <p>Updates to this policy will be published at this address with a revised effective date.</p>
 
   <h2>Contact</h2>
-  <p>Questions about this policy: <a href="mailto:colinwong@gmail.com">colinwong@gmail.com</a>.</p>
+  <p>Questions or requests about your information: <a href="mailto:colinwong@gmail.com">colinwong@gmail.com</a>.</p>
 
-  <footer>Le Mahjong Club · <a href="./">Support</a></footer>
+  <footer>Le Mahjong · <a href="./">Support</a></footer>
 </main>
 </body>
 </html>
