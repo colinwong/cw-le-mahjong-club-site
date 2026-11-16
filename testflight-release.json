@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "bundleID": "com.colinwong.lemahjongclub",
   "version": "1.0",
-  "build": "363",
+  "build": "365",
   "minimumOS": "26.0",
-  "expiresAt": "2027-02-14T04:44:21Z",
+  "expiresAt": "2027-02-14T05:56:37Z",
   "available": true
 }
